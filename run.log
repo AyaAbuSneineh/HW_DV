@@ -1,0 +1,40 @@
+Command: /home/st41/HW4/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP2_Full64; Runtime version T-2022.06-SP2_Full64;  May  3 22:51 2026
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06-SP2, Linux x86_64/64bit, 11/22/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'wave.fsdb'
+*Verdi* : Begin traversing the scope (top), layer (0).
+*Verdi* : End of traversing.
+GENERATED | time = 0 | address = 31a9 | data_in = 28 | expected = 000101000
+GENERATED | time = 0 | address = b3f9 | data_in = 47 | expected = 001000111
+GENERATED | time = 0 | address = ec2b | data_in = c5 | expected = 011000101
+GENERATED | time = 0 | address = ac19 | data_in = 00 | expected = 000000000
+GENERATED | time = 0 | address = 8db4 | data_in = ea | expected = 111101010
+GENERATED | time = 0 | address = 47f1 | data_in = 1b | expected = 000011011
+GENERATED | time = 0 | address = 797f | data_in = fe | expected = 111111110
+GENERATED | time = 0 | address = 2abd | data_in = f0 | expected = 011110000
+GENERATED | time = 0 | address = 21aa | data_in = 43 | expected = 101000011
+GENERATED | time = 0 | address = f7c2 | data_in = 0c | expected = 000001100
+[Transaction] t=450000 | data_out=0x028
+[Transaction] t=850000 | data_out=0x047
+[Transaction] t=1250000 | data_out=0x0c5
+[Transaction] t=1650000 | data_out=0x000
+[Transaction] t=2050000 | data_out=0x1ea
+[Transaction] t=2450000 | data_out=0x01b
+[Transaction] t=2850000 | data_out=0x1fe
+[Transaction] t=3250000 | data_out=0x0f0
+[Transaction] t=3650000 | data_out=0x143
+[Transaction] t=4050000 | data_out=0x00c
+[Transaction] t=4050000 | Total errors = 0
+=================================
+TEST PASSED: No errors found.
+=================================
+$finish called from file "my_mem_tb.sv", line 99.
+$finish at simulation time              4350000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4350000 ps
+CPU Time:      0.410 seconds;       Data structure size:   0.0Mb
+Sun May  3 22:51:08 2026
